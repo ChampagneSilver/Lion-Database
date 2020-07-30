@@ -1,0 +1,175 @@
+/*
+	Lion Database Style Sheet
+	
+	Author: RaMon Silver
+	DateL 7/26/2020
+	Filename: main.css
+	Supporting files: none
+	
+*/
+
+/*Display HTML5 structural elements as blocks */
+article, aside, figure, figcaption, footer, hgroup, header, section, nav {
+	display: block;
+}
+
+/*Set the default page element styles */
+body {
+	margin: 0px auto;
+	width: 800px;
+	background: url("Background/forest.jpg");
+	background-color: rgb(255, 207, 105);
+}
+
+body * {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	font-weight: inherit;
+	line-height: 1.2em;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	vertical-align: baseline;
+}
+
+/*Navigation links*/
+nav ul{
+	list-style: none;
+	margin-top: 5px;
+}
+nav li{
+	float: left;
+	width: 11%;
+	text-align: center;
+	margin: 11px 25px 15px 40px;
+	border: 2px solid rgb(15, 15, 15);
+	list-style-type: none;
+}
+nav li a{
+	display: block;
+	color: black;
+	text-decoration: none;
+	background-color: rgb(190, 255, 156);
+	font-style: italic;
+}
+nav li a:hover{
+	color: black;
+	background-color: rgb(60, 163, 5);
+}
+
+/*h1, h2, h3, P*/
+h1 {
+	font-size: 25px;
+	font-weight: bold;
+	font-style: italic;
+	color: black;
+	margin-top: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	margin: 5px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: black;
+}
+h3 {
+	font-size: 15px;
+	margin: 7px;
+	color: red;
+}
+p{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	margin: 7px;
+}
+
+/*Field styles*/
+input, textarea{
+	border: 2px solid rgb(15, 15, 15);
+	padding: 0.2em;
+	font-size: 1em;	
+}
+fieldset {
+	border: none;
+	padding: 2%;
+	margin-bottom: 0.8em;
+	
+}
+legend {
+	font-size: 20px;
+	margin: 5px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	color: black;
+}
+#fnameinput, #lnameinput, #emailinput, #phoneinput {
+	width: 20em;
+}
+#feedback {
+	width: 99%;
+	display: block;
+	
+}
+#main ul {
+	list-style-type: block;
+	margin-left: 50px;
+	font-size: 12px;
+	margin-top: 15px;
+	margin-bottom: 15px;	
+}
+
+#main ul li{
+	margin-bottom: 10px;
+}
+
+/*Label styles*/
+.contactinfo label {
+	display: block;
+	position: relative;
+	margin: 1em 0;
+}
+.contactinfo input {
+	position: absolute;
+	left: 6em;
+}
+.submitbutton{
+	border: none;
+	text-align: center;
+	
+}
+
+/*Footer*/
+footer{
+	border: 2px solid rgb(15, 15, 15);
+	background-color: rgb(190, 255, 156);
+	margin-top: 2em;
+	width: 100%;
+}
+address{
+	font-style: normal;
+	font-size: 15px;
+	text-align: center;
+	padding: 5px;
+}
+
+
+/*Img styles*/
+img.head {
+	border: 2px solid rgb(15, 15, 15);
+}
+img.PgImg {
+	clear: right;
+	float: right;
+	margin: 0px;
+	border: 2px solid rgb(15, 15, 15);
+}
+img.PgImg1 {
+	clear: left;
+	float: left;
+	margin: 0px;
+	border: 2px solid rgb(15, 15, 15);
+}
+
+/*List styles*/
+li {
+	font-size: 15px;
+	list-style-type: square;
+}
