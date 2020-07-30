@@ -1,0 +1,25 @@
+/*
+		Lion Database
+		Author: RaMon Silver
+		Date: 7/26/2020
+	Filename: tstyles.css
+	Supporting files: none
+	
+*/
+table {
+    font-size: 14px;
+    background: rgb(190, 255, 156);
+    margin: 10px auto;
+    width: 600px;
+	text-align: left;
+}
+td {
+	border: 1px solid black;
+	vertical-align: top;
+	padding: 5px;
+	background: white;
+}
+th {
+	font-size: 16px;
+	font-weight: bold;
+}
