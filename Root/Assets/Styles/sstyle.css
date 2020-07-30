@@ -1,0 +1,30 @@
+/*
+	Lion Database
+	Author: RaMon Silver
+		Date: 7/26/2020
+	Filename: sstyle.css
+	Supporting files: none
+	
+*/
+aside {
+    display: block;
+    width: 450px;
+    float: right;
+    background-color: rgb(190, 255, 156);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 5px 0px 20px 20px;
+    
+}
+
+aside img {
+	float: right;
+	margin: 5px;
+	border: 2px solid rgb(15, 15, 15);
+}
+
+aside {
+	height: 250px;
+	overflow: auto;
+}
+

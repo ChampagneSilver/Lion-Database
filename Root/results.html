@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--
+		Lion Database
+		Author: RaMon Silver
+		Date: 7/26/2020
+		
+		Filename: results.htm
+		Supporting files: modernizr.custom.40753, main.css, headlion2.jpg
+	-->
+	<head>
+		<meta charset="UTF-8" />
+		
+		<title>Results</title>
+		
+		<link href="Assets/Styles/main.css" rel="stylesheet" type="text/css" />
+	</head>
+
+	<body>
+		<header> 
+			<img src="Assets/Images/headlion2.jpg" alt="Lion Database" class="head"/>
+		</header>
+	
+			<nav>
+				<ul>
+					<li><a href="index.htm">Home</a></li>
+					<li><a href="aboutus.htm">About Us</a></li>
+					<li><a href="events.htm">Events</a></li>
+					<li><a href="showcase.htm">Showcase</a></li>
+					<li><a href="contactus.htm">Contact Us</a></li>
+				</ul>
+			</nav>
+			<article id="contentstart">
+            <h1>Your form has been submitted the Lion Database team!</h1>
+               <h2>You entered the following information:</h2>
+         
+               <script>
+                   var formData = location.search;
+                   formData = formData.substring(1, formData.length);
+                   while (formData.indexOf("+") !== -1) {
+                      formData = formData.replace("+", " ");
+                   }
+                   formData = decodeURIComponent(formData);
+                   var formArray = formData.split("&");
+                   for (var i = 0; i < formArray.length; i = i + 1) {
+                      document.write("<p>" + formArray[i] + "</p>");
+                   }
+               </script>
+         </article>
+	
+	<section id="main">
+		
+	</section>
+	
+		<footer>
+			<address>
+				Lion Database &#183;
+				1 Government Dr &#183;
+				Saint Louis, MO 63110 &#183;
+				(123) 456 - 7890 &#183;
+				LionDatabase@gmail.com
+			</address>
+		</footer>
+				
+	</body>
+	
+</html>
